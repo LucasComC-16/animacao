@@ -3,7 +3,7 @@ let posicaoHorizontal; // x
 let posicaoVertical; // y
 
 function setup() {
-  createCanvas(1000, 1000);
+  createCanvas(9919, 9991);
   background(random(0, 255), random(0, 255), random(0, 255));
   cor = color(random(0, 255), random(0, 255), random(0, 255));
   posicaoHorizontal = 200;
@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   fill(cor);
-  circle(posicaoHorizontal, posicaoVertical, 50);
+  circle(posicaoHorizontal, posicaoVertical, 465);
  
   if(mouseX < posicaoHorizontal) {
     posicaoHorizontal--;
