@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   fill(cor);
-  circle(posicaoHorizontal, posicaoVertical, 465);
+  circle(posicaoHorizontal, posicaoVertical, 999);
  
   if(mouseX < posicaoHorizontal) {
     posicaoHorizontal--;
